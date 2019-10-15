@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Business Frontpage - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+
+  <!-- Custom Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <div id="mi-navbar-content">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" id="mi-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="http://www.fideapech.com/faces/javax.faces.resource/logotipos/Logotipo%20FIDEAPECH%202016_E.png?ln=spark-layout"
+              height="40" alt="mdb logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon sr-only">
+              <img src="images\menu.png" height="35" alt="mdb logo" href="..\index.html">
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+    
+              <li class="nav-item">
+                <a class="nav-link" href="programasExternos.html">Programas externos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://fideapech.wixsite.com/transparencia">Transparencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="licitaciones.html">Licitaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="organigrama.html">Organigrama</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://tramites.chihuahua.gob.mx/">Tramites y servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Becarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+    
+        </div>
+      </nav>
+  </div>
+  
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $('.test, .nav-link, .navbar-brand, .new-button').click(function() {
+        var sectionTo = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(sectionTo).offset().top
+        }, 1500);
+    });
+  </script>
+
+</body>
+
+</html>
