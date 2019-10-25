@@ -3,11 +3,11 @@ html {
 }
 
 body {
-  padding-top: 66px;
+  padding-top: 62px;
 }
 
 .navbar.navbar-expand-lg.bg-dark.fixed-top{
-  background-color: #2d2d2d !important;
+  background-color: #1f1f1f !important;
 }
 
 .nav-link{
@@ -41,7 +41,11 @@ a:hover {
   
   /*background-image: url("http://www.fideapech.com/faces/javax.faces.resource/logotipos/fondo3.jpg?ln=spark-layout");*/
 
-  background-image: url("http://www.fideapech.com/faces/javax.faces.resource/logotipos/catedral.jpg?ln=spark-layout");
+  /*background-image: url("http://www.fideapech.com/faces/javax.faces.resource/logotipos/catedral.jpg?ln=spark-layout");*/
+
+  /*background-image: url("https://www.dnb.com/content/dam/english/image-library/Modernization/other/hero-resources-article-business-analytics.jpg");*/
+  
+  background-image: url("https://everytown.org/wp-content/uploads/2018/08/EBL-texture.jpg");
   /* Full height */
   height: 100%;
 
@@ -82,12 +86,12 @@ hr {
   clear:both;
   display:block;
   width: 100%;               
-  background-color:#B25059;
+  background-color:rgb(177, 69, 80);
   height: 1px;
 }
 
 .sombreado {
-  background-color: rgba(178, 80, 89, 0.5);
+  background-color: rgba(185, 74, 85, 0.568);
 }
 
 .organigramaImage {
@@ -169,7 +173,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #2d2d2d;
+    color: #1f1f1f;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
