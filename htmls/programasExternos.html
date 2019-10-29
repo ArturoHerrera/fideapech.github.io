@@ -94,40 +94,17 @@
 
     <!-- Page Content -->
     <div class="container">
-
-        <br>
-        <!-- /.row -->
-        <div class="row">
-            <h2 class="col-12 font-weight-bold">Programas externos</h2>
-            <hr>
-
-            <div class="col-12 col-sm-3 mx-auto" style="margin-bottom:5px">
-                <div class="card border-secondary h-100">
-                    <img class="card-img-top mx-auto"
-                        src="http://fideapech.com/faces/imagenesProyectos/MUNICIPIO.png?pfdrid_c=true" alt="">
-
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">FADES</h5>
-                        <hr>
-                        <h5 class="font-weight-bold">PROGRAMA DE PROYECTOS PRODUCTIVOS</h5>
-                        <p class="card-text">Impulsar a la micro empresa a incrementar sus ingresos con apoyos en
-                            especie equivalentes a $20,000.00 </p>
-                    </div>
-
-                    <div class="card-footer text-center text-center">
-                        <a href="http://www.municipiochihuahua.gob.mx/" class="btn btn-primary"
-                            target="_blank">Visitar</a>
-                    </div>
-                </div>
-            </div>
-
-
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
         </div>
 
-        <br /><br /><br /><br />
-
-    </div>
-    <!-- /.row -->
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Programas externos</button>
+        </div>
 
     </div>
     <!-- /.container -->
@@ -180,7 +157,17 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
 
 </body>
 
